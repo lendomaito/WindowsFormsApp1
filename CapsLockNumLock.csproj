@@ -55,6 +55,11 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Properties\Resources.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
     <Compile Include="Splash2.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -69,6 +74,11 @@
     </Compile>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <DependentUpon>Resources.cs</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="Splash2.resx">
       <DependentUpon>Splash2.cs</DependentUpon>
@@ -91,6 +101,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Resources\p1.png" />
+    <None Include="Resources\p13.png" />
+    <None Include="Resources\p22.png" />
     <None Include="Resources\p12.png" />
     <None Include="Resources\p21.png" />
     <None Include="Resources\p11.png" />
