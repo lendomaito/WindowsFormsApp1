@@ -38,7 +38,7 @@
             this.labelMessage.AutoSize = true;
             this.labelMessage.BackColor = System.Drawing.Color.DimGray;
             this.labelMessage.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelMessage.Location = new System.Drawing.Point(2, 173);
+            this.labelMessage.Location = new System.Drawing.Point(109, 447);
             this.labelMessage.Name = "labelMessage";
             this.labelMessage.Size = new System.Drawing.Size(40, 25);
             this.labelMessage.TabIndex = 0;
@@ -48,9 +48,9 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Location = new System.Drawing.Point(43, 12);
+            this.pictureBox1.Location = new System.Drawing.Point(12, 12);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(232, 152);
+            this.pictureBox1.Size = new System.Drawing.Size(450, 432);
             this.pictureBox1.TabIndex = 1;
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click_1);
@@ -60,7 +60,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Window;
-            this.ClientSize = new System.Drawing.Size(325, 276);
+            this.ClientSize = new System.Drawing.Size(468, 485);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.labelMessage);
             this.DoubleBuffered = true;

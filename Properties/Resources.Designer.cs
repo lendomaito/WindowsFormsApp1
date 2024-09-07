@@ -63,9 +63,9 @@ namespace WindowsFormsApp1.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap p1 {
+        internal static System.Drawing.Bitmap capoff {
             get {
-                object obj = ResourceManager.GetObject("p1", resourceCulture);
+                object obj = ResourceManager.GetObject("capoff", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -73,9 +73,29 @@ namespace WindowsFormsApp1.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap p2 {
+        internal static System.Drawing.Bitmap capson {
             get {
-                object obj = ResourceManager.GetObject("p2", resourceCulture);
+                object obj = ResourceManager.GetObject("capson", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap NumLock {
+            get {
+                object obj = ResourceManager.GetObject("NumLock", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap NumOn {
+            get {
+                object obj = ResourceManager.GetObject("NumOn", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

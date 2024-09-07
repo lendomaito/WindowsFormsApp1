@@ -39,6 +39,7 @@ namespace WindowsFormsApp1
             splash.Focus();
             splash.TopMost = true;
 
+
             // Close the splash screen after 2 seconds
             Timer closeTimer = new Timer();
             closeTimer.Interval = 500; // 2000ms = 2 seconds
@@ -109,27 +110,32 @@ namespace WindowsFormsApp1
         private void DisposeTimers()
         {
             stateCheckTimer?.Dispose();
+            components?.Dispose();
+            DisposeTimers();
         }
 
 
         //Ensures that timers handlers are properly removed when they are no longer in use
-     //   protected override void Dispose(bool disposing)
-     //   {
-     //       if (disposing)
-      //      {
-       //         DisposeTimers();
-        //        components?.Dispose();
-        //        UnsubscribeEvents();
-         //       DisposeTimers();
-        //        components?.Dispose();
-        //    }
-      //      base.Dispose(disposing);
-      //  }
+      
         private void UnsubscribeEvents()
         {
             stateCheckTimer.Tick -= StateCheckTimer_Tick;
         }
 
+       
         
+
+
     }
 }
+//protected override void Dispose(bool disposing)
+//{
+//    if (disposing)
+//    {
+//        components?.Dispose();
+//        UnsubscribeEvents();
+//        DisposeTimers();
+//        components?.Dispose();
+//    }
+//    base.Dispose(disposing);
+//}

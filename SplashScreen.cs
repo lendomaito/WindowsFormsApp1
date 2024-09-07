@@ -22,10 +22,23 @@ namespace WindowsFormsApp1
         private void SplashScreen_Load(object sender, EventArgs e)
         {
             bool currentCapsLockState2 = Control.IsKeyLocked(Keys.CapsLock);
-            
 
-
-
+            if (labelMessage.Text == "Num Lock is ON")
+            {
+               pictureBox1.Image = Properties.Resources.NumOn;
+            }
+            else if (labelMessage.Text == "Num Lock is OFF")
+            {
+               pictureBox1.Image = Properties.Resources.NumLock; // Replace with a default image resource
+            }
+            else if (labelMessage.Text == "Caps Lock is ON")
+            {
+                pictureBox1.Image = Properties.Resources.capson;
+            }
+            else if (labelMessage.Text == "Caps Lock is OFF")
+            {
+                pictureBox1.Image = Properties.Resources.capoff;
+            }
         }
 
 

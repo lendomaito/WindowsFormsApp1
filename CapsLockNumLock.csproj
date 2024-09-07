@@ -78,6 +78,7 @@
     <EmbeddedResource Include="Properties\Resources.resx">
       <DependentUpon>Resources.cs</DependentUpon>
       <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="Splash2.resx">
@@ -100,14 +101,16 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Resources\p1.png" />
-    <None Include="Resources\p13.png" />
-    <None Include="Resources\p22.png" />
-    <None Include="Resources\p12.png" />
-    <None Include="Resources\p21.png" />
-    <None Include="Resources\p11.png" />
-    <None Include="Resources\p2.png" />
+    <None Include="Resources\capson.png" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <None Include="Resources\NumLock.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NumOn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\capoff.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
