@@ -42,8 +42,6 @@ namespace WindowsFormsApp1
         }
 
 
-
-
         public void SetMessage(string message)
         {
             labelMessage.Text = message;  // Assume there's a Label named labelMessage on the form
