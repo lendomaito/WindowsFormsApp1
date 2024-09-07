@@ -22,11 +22,14 @@ namespace WindowsFormsApp1
         private void SplashScreen_Load(object sender, EventArgs e)
         {
             bool currentCapsLockState2 = Control.IsKeyLocked(Keys.CapsLock);
-
             
-                
 
-        }
+
+
+            }
+
+
+
 
         public void SetMessage(string message)
         {
@@ -39,11 +42,7 @@ namespace WindowsFormsApp1
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
-
-
             //var imageToShow = Properties.Resources.ResourceManager.GetObject(g4.png);
-
-
         }
 
         private void pictureBox2_Click(object sender, EventArgs e)
@@ -53,6 +52,14 @@ namespace WindowsFormsApp1
         {
             
         }
+
+        private void pictureBox1_Click_1(object sender, EventArgs e)
+        {
+
+        }
+    
+    
     }
+
 }
     
